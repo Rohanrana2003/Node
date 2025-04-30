@@ -1,3 +1,6 @@
+const { a, add } = require("./second");
+
 var name = "rohan";
-console.log(name);
-console.log(window);
+
+console.log(add(a, 3));
+console.log(a);
